@@ -8,7 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
      body{
-      background-color:bisque;
+      background-color:blue;
       text-align: center;
       font-size: large;
     }
@@ -36,37 +36,28 @@
     }
 
     </style>
-    </head>
-   <body>
-          <div class="topnav">
-             
-      <a href="Home.html">Home</a>
-      
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"href="appba.html">application <span class="caret"></span></a>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="Home.html" style="color: aqua;">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="appba.html">application <span class="caret"></span></a>
       
       <ul class="dropdown-menu">
-        <li><a href="form.html">picture</a></li>
+        <li><a href="form.html">form</a></li>
         <li><a href="event.html">event</a></li>
       </ul>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-          </div>
+      </li>
+      
+      <li><a href="about.html">About</a></li>
+      </ul>
+
+     
+
+    </div>
+    </head>
+   <body>
           <div class="application form">
             <h2>application form</h2>
-            <form id="application">
-                <label>fullname:</label>
-                <input type="text" id="fullname" class="fullname" required><br>
-                
-                <label>contactno.:</label>
-                <input type="text" id="contactno." class="contactno." required><br>
-
-                <label>event date:</label>
-                <input type="date" id="event date" class="event date" required><br>
-       
-                   <label>emailid:</label>
-                   <input type="text" id="emailid" class="emailid" required><br>
-                   <button>submit</button>
-            </form>
+            
           </div>
         </body>
 </html>
